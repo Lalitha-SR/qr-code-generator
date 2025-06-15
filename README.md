@@ -1,12 +1,33 @@
-# React + Vite
+# 📍 QR Code Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and user-friendly web application to generate and download QR codes from any Google Maps location or custom text. Built using **React**, styled with **CSS**, and deployed on **Netlify**.
 
-Currently, two official plugins are available:
+🔗 **Live Website**: [location-qrcode-generator.netlify.app](https://location-qrcode-generator.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ✅ Generate QR codes for Google Maps locations or any text
+- 📐 Choose your own QR image size
+- ⬇️ Download the generated QR code as a PNG
+- 🔔 Alert notifications for actions (success, error, etc.)
+- ⚡ Instant generation using [QRServer API](https://goqr.me/api/)
+
+---
+
+## 🎥 Preview
+
+![QR Code Generator Preview](./screenshot.png) <!-- You can update with a real screenshot image -->
+
+---
+
+## 🧑‍💻 Getting Started
+
+Follow these steps to run the project locally:
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Lalitha-SR/qr-code-generator.git
+cd qr-code-generator
