@@ -1,0 +1,124 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bahianita&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+.app-container{
+    width:100%;
+    height: 100%;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+
+}
+.title-with-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #3498db;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.logo {
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+}
+
+@keyframes logoBounce {
+    0% {
+        transform: scale(0.3);
+        opacity: 0;
+    }
+    50% {
+        transform: scale(1.1);
+        opacity: 1;
+    }
+    70% {
+        transform: scale(0.9);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.logo {
+    animation: logoBounce 0.8s ease;
+}
+
+.qrimage{
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.input-label{
+    display:block;
+    margin-bottom: 8px;
+    color: #3498db;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+input[type='text']{
+    padding : 12px;
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: 16px;
+    border: 2px solid #3498db;
+    border-radius:5px;
+
+}
+input[type='number']{
+    padding : 12px;
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: 16px;
+    border: 2px solid #3498db;
+    border-radius:5px;
+
+}
+
+button{
+    padding: 15px 20px;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition:background-color 0.3s;
+}
+.generate{
+    background-color: #3498db;
+}
+
+.generate:disabled{
+    background-color: #bdc3c7;
+    margin-left: 10px;
+    cursor: not-allowed;
+}
+
+.download{
+    background-color: #27ae60;
+    margin-left: 10px;
+}
+.download:disabled{
+    background-color: red;
+    margin-left: 10px;
+}
+
+.download:hover{
+    background-color:#219a52;
+}
+
+.footer{
+    margin-top: 30px;
+    color: #3498db;
+    font-style: italic;
+    font-family: "Bahianta", cursive;
+}
